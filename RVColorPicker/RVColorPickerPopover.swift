@@ -38,9 +38,8 @@ class RVColorPickerPopover: NSPopover {
         colorPanel.color = color
         colorPanel.appearance = self.appearance
         colorPanel.orderFront(nil)
-        colorPanel.setTarget(self)
-        colorPanel.setAction(#selector(colorChangeMessage))
 
+        NotificationCenter.default.addObserver(self, selector: #selector(colorChangeMessage), name: NSColorPanel.colorDidChangeNotification, object: colorPanel)
         if var frame = contentViewController?.view.window?.frame {
             frame = frame.insetBy(dx: 13, dy: 13)
             colorPanel.setFrame(frame, display: true)
@@ -56,12 +55,11 @@ class RVColorPickerPopover: NSPopover {
         colorPanel.titleVisibility = .visible
         colorPanel.setFrame(colorPanelFrame, display: true)
         colorPanel.appearance = self.originalAppearance
-        colorPanel.setTarget(nil)
-        colorPanel.setAction(nil)
+        NotificationCenter.default.removeObserver(self)
     }
     
-    @objc func colorChangeMessage(_ sender: NSColorPanel) {
-        self.color = sender.color
+    @objc func colorChangeMessage(_ notification: NSNotification) {
+        self.color = NSColorPanel.shared.color
         self.changeColor?(self.color)
     }
 }
