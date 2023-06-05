@@ -88,3 +88,7 @@ fastlane/test_output
 # https://github.com/johnno1962/injectionforxcode
 
 iOSInjectionProject/
+Example/Pods/Target*Support*Files/
+Example/RVColorPickerPopover.xcodeproj/project.xcworkspace/contents.xcworkspacedata
+Example/RVColorPickerPopover.xcodeproj/xcshareddata/xcschemes/RVColorPickerPopover-Example.xcscheme
+Example/RVColorPickerPopover.xcworkspace/xcshareddata/IDEWorkspaceChecks.plist
