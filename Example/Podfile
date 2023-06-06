@@ -1,0 +1,5 @@
+use_frameworks!
+
+target 'RVColorPickerPopover_Example' do
+  pod 'RVColorPickerPopover', :path => '../'
+end

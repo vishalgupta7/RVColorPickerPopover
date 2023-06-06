@@ -1,0 +1,16 @@
+PODS:
+  - RVColorPickerPopover (0.1.0)
+
+DEPENDENCIES:
+  - RVColorPickerPopover (from `../`)
+
+EXTERNAL SOURCES:
+  RVColorPickerPopover:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  RVColorPickerPopover: d5630416c218715a5617975e2d350b8301df8aab
+
+PODFILE CHECKSUM: fdca5c49f4a10d91b540b848a0268356e5a82433
+
+COCOAPODS: 1.12.1

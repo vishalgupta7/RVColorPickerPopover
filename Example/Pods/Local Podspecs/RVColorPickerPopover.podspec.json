@@ -1,0 +1,22 @@
+{
+  "name": "RVColorPickerPopover",
+  "version": "0.1.0",
+  "summary": "A short description of RVColorPickerPopover.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/Rohit Vishwakarma/RVColorPickerPopover",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Rohit Vishwakarma": "rohitvishwakarma1819@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/Rohit Vishwakarma/RVColorPickerPopover.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "osx": "10.14"
+  },
+  "source_files": "RVColorPickerPopover/Classes/**/*"
+}
