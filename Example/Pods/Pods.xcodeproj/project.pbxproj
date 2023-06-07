@@ -7,17 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		13C5AB99B961C087BE49519E74479055 /* RVColorPickerPopover.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6A8BB843372B170EEDC724F846A5D66 /* RVColorPickerPopover.swift */; };
-		35D7E1F76FCC06380487D0DAC80C81C8 /* RVColorPickerPopover-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B30FAEECFC7CA73A7D3A97128BB9241 /* RVColorPickerPopover-dummy.m */; };
+		0949FFAE0235CC61C6407908DDFD929B /* RVColorPickerPopover-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5D70533B370692D14F64890B71B52917 /* RVColorPickerPopover-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		124E4CD7F6A031FDF74510EF1E8949B4 /* RVColorWell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 111D5CB7B27D57BAAA48922421038FCC /* RVColorWell.swift */; };
+		33F574F51B5325D50B0A477EC0A40C0F /* RVColorPickerPopover-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FE7410F8A951D9455533242D9D860DCC /* RVColorPickerPopover-dummy.m */; };
 		69858B34C603AF6225497EA65A876F11 /* Pods-RVColorPickerPopover_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DC258DE1722C49D960B31AA994D16114 /* Pods-RVColorPickerPopover_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		91DCD738A7172EC87498FF7940FE7615 /* RVColorPickerPopover-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D172539800EC228BFAACEF4036DDCB17 /* RVColorPickerPopover-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A1B2EEE38619AEBCDB37C637CE3F233B /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1430F003D39D9906881A6AC724B7931 /* Cocoa.framework */; };
+		7D3ACA32815C3A7B062742E4755F0243 /* RVColorPickerPopover.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4319DFCA61E9F311507479C141C933AB /* RVColorPickerPopover.swift */; };
+		7D7A67062B613CF89F2D46856A5F7320 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1430F003D39D9906881A6AC724B7931 /* Cocoa.framework */; };
 		D42591380DD3301DAE68FE84A1C8F676 /* Pods-RVColorPickerPopover_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E7CC87E6C0DB768E5C0053FAAFC5138E /* Pods-RVColorPickerPopover_Example-dummy.m */; };
 		FB2841F40927327051F9C93CED44D9E0 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1430F003D39D9906881A6AC724B7931 /* Cocoa.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		D39435890759E0D7479844BF5CA9647F /* PBXContainerItemProxy */ = {
+		79D694CF7707572E422F935F43B7DE3A /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
@@ -28,37 +29,38 @@
 
 /* Begin PBXFileReference section */
 		007DF85243F7CA74E0B060ACD4A32C43 /* Pods-RVColorPickerPopover_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RVColorPickerPopover_Example-Info.plist"; sourceTree = "<group>"; };
-		0A935F609D0D7097F2A3FE8FE3F7FD8E /* RVColorPickerPopover-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RVColorPickerPopover-prefix.pch"; sourceTree = "<group>"; };
-		0DC23C1043FD295094C14C45059F56BA /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		1B30FAEECFC7CA73A7D3A97128BB9241 /* RVColorPickerPopover-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "RVColorPickerPopover-dummy.m"; sourceTree = "<group>"; };
+		111D5CB7B27D57BAAA48922421038FCC /* RVColorWell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RVColorWell.swift; path = RVColorPickerPopover/Classes/RVColorWell.swift; sourceTree = "<group>"; };
+		196576FAD7981327521179588890D792 /* RVColorPickerPopover.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = RVColorPickerPopover.modulemap; sourceTree = "<group>"; };
 		302BABCCEE033993418D6A7D27358A12 /* Pods-RVColorPickerPopover_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-RVColorPickerPopover_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		34275CBA5D39C73D49B057ED269F0493 /* Pods-RVColorPickerPopover_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RVColorPickerPopover_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		4319DFCA61E9F311507479C141C933AB /* RVColorPickerPopover.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RVColorPickerPopover.swift; path = RVColorPickerPopover/Classes/RVColorPickerPopover.swift; sourceTree = "<group>"; };
+		5D70533B370692D14F64890B71B52917 /* RVColorPickerPopover-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RVColorPickerPopover-umbrella.h"; sourceTree = "<group>"; };
 		6968184274F264D65385B68BC2EE6E52 /* Pods-RVColorPickerPopover_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-RVColorPickerPopover_Example.modulemap"; sourceTree = "<group>"; };
+		6DC38221DC8770FB886B3B00DC12E166 /* RVColorPickerPopover.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = RVColorPickerPopover.debug.xcconfig; sourceTree = "<group>"; };
 		83F41D3AD94712B3F2194FA84EF126D5 /* Pods-RVColorPickerPopover_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-RVColorPickerPopover_Example-frameworks.sh"; sourceTree = "<group>"; };
 		85C7D5D0045EF5B17C90B09F9886E69F /* Pods-RVColorPickerPopover_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RVColorPickerPopover_Example.release.xcconfig"; sourceTree = "<group>"; };
-		8E6D71A572AE9379471AA50272C59C08 /* RVColorPickerPopover.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = RVColorPickerPopover.debug.xcconfig; sourceTree = "<group>"; };
-		95703CD3F580790E3F6D00063D082891 /* RVColorPickerPopover.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = RVColorPickerPopover.release.xcconfig; sourceTree = "<group>"; };
+		995FD4D9340EADEBC351EEF1E2B7732C /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		BBCE93F8206C919D94CD69CCB101C46B /* RVColorPickerPopover */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = RVColorPickerPopover; path = RVColorPickerPopover.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		BD2CEF767FEA9C48F196E72ED2ECCBB7 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		BDCF1819650CB6AB2E3BAA327B9C43D7 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		C1430F003D39D9906881A6AC724B7931 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/Cocoa.framework; sourceTree = DEVELOPER_DIR; };
 		CB13DE31E70DBF99438667E4F1387E3F /* Pods-RVColorPickerPopover_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-RVColorPickerPopover_Example"; path = Pods_RVColorPickerPopover_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		CE169B8E25894E6AFE90D84781E272B9 /* RVColorPickerPopover.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = RVColorPickerPopover.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		D172539800EC228BFAACEF4036DDCB17 /* RVColorPickerPopover-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RVColorPickerPopover-umbrella.h"; sourceTree = "<group>"; };
-		D6A8BB843372B170EEDC724F846A5D66 /* RVColorPickerPopover.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RVColorPickerPopover.swift; path = RVColorPickerPopover/Classes/RVColorPickerPopover.swift; sourceTree = "<group>"; };
+		D940D1ECA6CC5686C39BAF7855E181BA /* RVColorPickerPopover.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = RVColorPickerPopover.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		DC258DE1722C49D960B31AA994D16114 /* Pods-RVColorPickerPopover_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-RVColorPickerPopover_Example-umbrella.h"; sourceTree = "<group>"; };
-		DC3F78BA63A4514FCB431C3ADFBEC563 /* RVColorPickerPopover-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "RVColorPickerPopover-Info.plist"; sourceTree = "<group>"; };
+		DCABF5C3CA2652FE78EB2E5D0E456B3A /* RVColorPickerPopover.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = RVColorPickerPopover.release.xcconfig; sourceTree = "<group>"; };
+		E107E521D5FC9CA059A7253C382776AF /* RVColorPickerPopover-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "RVColorPickerPopover-Info.plist"; sourceTree = "<group>"; };
 		E7CC87E6C0DB768E5C0053FAAFC5138E /* Pods-RVColorPickerPopover_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-RVColorPickerPopover_Example-dummy.m"; sourceTree = "<group>"; };
 		F8A910852D83F8B757A2FFC98F908C9E /* Pods-RVColorPickerPopover_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RVColorPickerPopover_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		FEF11753B65FE5D213AFE386384238C7 /* RVColorPickerPopover.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = RVColorPickerPopover.modulemap; sourceTree = "<group>"; };
+		FAF337546838338846162A248A160098 /* RVColorPickerPopover-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RVColorPickerPopover-prefix.pch"; sourceTree = "<group>"; };
+		FE7410F8A951D9455533242D9D860DCC /* RVColorPickerPopover-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "RVColorPickerPopover-dummy.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		13F6771CA7E6F22F66704192791B65EA /* Frameworks */ = {
+		3DB600895D020B9519361BB62E3933D0 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A1B2EEE38619AEBCDB37C637CE3F233B /* Cocoa.framework in Frameworks */,
+				7D7A67062B613CF89F2D46856A5F7320 /* Cocoa.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -73,6 +75,51 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		017AC31F55AE1DA2062ACE2F3507611F /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				196576FAD7981327521179588890D792 /* RVColorPickerPopover.modulemap */,
+				FE7410F8A951D9455533242D9D860DCC /* RVColorPickerPopover-dummy.m */,
+				E107E521D5FC9CA059A7253C382776AF /* RVColorPickerPopover-Info.plist */,
+				FAF337546838338846162A248A160098 /* RVColorPickerPopover-prefix.pch */,
+				5D70533B370692D14F64890B71B52917 /* RVColorPickerPopover-umbrella.h */,
+				6DC38221DC8770FB886B3B00DC12E166 /* RVColorPickerPopover.debug.xcconfig */,
+				DCABF5C3CA2652FE78EB2E5D0E456B3A /* RVColorPickerPopover.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/RVColorPickerPopover";
+			sourceTree = "<group>";
+		};
+		3033F663075EF2534AB6534C6EE281D6 /* RVColorPickerPopover */ = {
+			isa = PBXGroup;
+			children = (
+				4319DFCA61E9F311507479C141C933AB /* RVColorPickerPopover.swift */,
+				111D5CB7B27D57BAAA48922421038FCC /* RVColorWell.swift */,
+				442DDD4726AE2ED392BDCC1FEC7362EF /* Pod */,
+				017AC31F55AE1DA2062ACE2F3507611F /* Support Files */,
+			);
+			name = RVColorPickerPopover;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		442DDD4726AE2ED392BDCC1FEC7362EF /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				BDCF1819650CB6AB2E3BAA327B9C43D7 /* LICENSE */,
+				995FD4D9340EADEBC351EEF1E2B7732C /* README.md */,
+				D940D1ECA6CC5686C39BAF7855E181BA /* RVColorPickerPopover.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		46A44FE15B0F785D077CAADFF309FCC6 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3033F663075EF2534AB6534C6EE281D6 /* RVColorPickerPopover */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
 		4CD7D43B3EEC3151A5BA9F7880D62A54 /* Products */ = {
 			isa = PBXGroup;
 			children = (
@@ -80,27 +127,6 @@
 				BBCE93F8206C919D94CD69CCB101C46B /* RVColorPickerPopover */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		566210F764F644798154CEDB55A88416 /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				BD2CEF767FEA9C48F196E72ED2ECCBB7 /* LICENSE */,
-				0DC23C1043FD295094C14C45059F56BA /* README.md */,
-				CE169B8E25894E6AFE90D84781E272B9 /* RVColorPickerPopover.podspec */,
-			);
-			name = Pod;
-			sourceTree = "<group>";
-		};
-		94D13BF4A41935DDDB27A55AF0E656F2 /* RVColorPickerPopover */ = {
-			isa = PBXGroup;
-			children = (
-				D6A8BB843372B170EEDC724F846A5D66 /* RVColorPickerPopover.swift */,
-				566210F764F644798154CEDB55A88416 /* Pod */,
-				FCAAA08E1715C51658491679644A517A /* Support Files */,
-			);
-			name = RVColorPickerPopover;
-			path = ../..;
 			sourceTree = "<group>";
 		};
 		9CD97CF0B4F058652F2A5575756005C5 /* Targets Support Files */ = {
@@ -132,7 +158,7 @@
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				EE500D1C7A6D3B60133E14477EEE7832 /* Development Pods */,
+				46A44FE15B0F785D077CAADFF309FCC6 /* Development Pods */,
 				E0A1E60606E0BF6E2E10F1F01350DFE8 /* Frameworks */,
 				4CD7D43B3EEC3151A5BA9F7880D62A54 /* Products */,
 				9CD97CF0B4F058652F2A5575756005C5 /* Targets Support Files */,
@@ -155,29 +181,6 @@
 			name = "OS X";
 			sourceTree = "<group>";
 		};
-		EE500D1C7A6D3B60133E14477EEE7832 /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				94D13BF4A41935DDDB27A55AF0E656F2 /* RVColorPickerPopover */,
-			);
-			name = "Development Pods";
-			sourceTree = "<group>";
-		};
-		FCAAA08E1715C51658491679644A517A /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				FEF11753B65FE5D213AFE386384238C7 /* RVColorPickerPopover.modulemap */,
-				1B30FAEECFC7CA73A7D3A97128BB9241 /* RVColorPickerPopover-dummy.m */,
-				DC3F78BA63A4514FCB431C3ADFBEC563 /* RVColorPickerPopover-Info.plist */,
-				0A935F609D0D7097F2A3FE8FE3F7FD8E /* RVColorPickerPopover-prefix.pch */,
-				D172539800EC228BFAACEF4036DDCB17 /* RVColorPickerPopover-umbrella.h */,
-				8E6D71A572AE9379471AA50272C59C08 /* RVColorPickerPopover.debug.xcconfig */,
-				95703CD3F580790E3F6D00063D082891 /* RVColorPickerPopover.release.xcconfig */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/RVColorPickerPopover";
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -189,11 +192,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		7D9F081DF3DD3BD0F44FB85DFB7B702E /* Headers */ = {
+		799388FA6076E40E1CB6C3CA593F079F /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				91DCD738A7172EC87498FF7940FE7615 /* RVColorPickerPopover-umbrella.h in Headers */,
+				0949FFAE0235CC61C6407908DDFD929B /* RVColorPickerPopover-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -212,7 +215,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				8E3194901F17F0D626F368CF0EAFEBC5 /* PBXTargetDependency */,
+				9B3925B423A021ECDE717504FE927A36 /* PBXTargetDependency */,
 			);
 			name = "Pods-RVColorPickerPopover_Example";
 			productName = Pods_RVColorPickerPopover_Example;
@@ -221,12 +224,12 @@
 		};
 		C210945F7377F92AF08081F11DC7CC4E /* RVColorPickerPopover */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D0A7DE04CB282911F14E6A241F20A2E4 /* Build configuration list for PBXNativeTarget "RVColorPickerPopover" */;
+			buildConfigurationList = 251BBADC7832E7B476F1D3492646AB4B /* Build configuration list for PBXNativeTarget "RVColorPickerPopover" */;
 			buildPhases = (
-				7D9F081DF3DD3BD0F44FB85DFB7B702E /* Headers */,
-				D3144C374774BECB5C93CD221D9B149B /* Sources */,
-				13F6771CA7E6F22F66704192791B65EA /* Frameworks */,
-				28DEB26B51320F639E9487B2E7E26B97 /* Resources */,
+				799388FA6076E40E1CB6C3CA593F079F /* Headers */,
+				7B3AF1A951716321361AA15561AD691B /* Sources */,
+				3DB600895D020B9519361BB62E3933D0 /* Frameworks */,
+				9D8744D9D41F3F5B4B24053F887E42FC /* Resources */,
 			);
 			buildRules = (
 			);
@@ -266,14 +269,14 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		28DEB26B51320F639E9487B2E7E26B97 /* Resources */ = {
+		5D0B8E8FAB9DCEAF80D8B052D431DDF0 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		5D0B8E8FAB9DCEAF80D8B052D431DDF0 /* Resources */ = {
+		9D8744D9D41F3F5B4B24053F887E42FC /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -291,27 +294,60 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D3144C374774BECB5C93CD221D9B149B /* Sources */ = {
+		7B3AF1A951716321361AA15561AD691B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				13C5AB99B961C087BE49519E74479055 /* RVColorPickerPopover.swift in Sources */,
-				35D7E1F76FCC06380487D0DAC80C81C8 /* RVColorPickerPopover-dummy.m in Sources */,
+				7D3ACA32815C3A7B062742E4755F0243 /* RVColorPickerPopover.swift in Sources */,
+				33F574F51B5325D50B0A477EC0A40C0F /* RVColorPickerPopover-dummy.m in Sources */,
+				124E4CD7F6A031FDF74510EF1E8949B4 /* RVColorWell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		8E3194901F17F0D626F368CF0EAFEBC5 /* PBXTargetDependency */ = {
+		9B3925B423A021ECDE717504FE927A36 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = RVColorPickerPopover;
 			target = C210945F7377F92AF08081F11DC7CC4E /* RVColorPickerPopover */;
-			targetProxy = D39435890759E0D7479844BF5CA9647F /* PBXContainerItemProxy */;
+			targetProxy = 79D694CF7707572E422F935F43B7DE3A /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
+		114B6F1E6559F92FAAC12060CD7A5AC5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DCABF5C3CA2652FE78EB2E5D0E456B3A /* RVColorPickerPopover.release.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/RVColorPickerPopover/RVColorPickerPopover-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/RVColorPickerPopover/RVColorPickerPopover-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MODULEMAP_FILE = "Target Support Files/RVColorPickerPopover/RVColorPickerPopover.modulemap";
+				PRODUCT_MODULE_NAME = RVColorPickerPopover;
+				PRODUCT_NAME = RVColorPickerPopover;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		A734648D21C485124F4CA7866CB7B37C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -375,38 +411,6 @@
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
-			};
-			name = Debug;
-		};
-		D6708EFBE00DAA2472D9BDEE0AE01269 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8E6D71A572AE9379471AA50272C59C08 /* RVColorPickerPopover.debug.xcconfig */;
-			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				COMBINE_HIDPI_IMAGES = YES;
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/RVColorPickerPopover/RVColorPickerPopover-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/RVColorPickerPopover/RVColorPickerPopover-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
-				MACOSX_DEPLOYMENT_TARGET = 10.14;
-				MODULEMAP_FILE = "Target Support Files/RVColorPickerPopover/RVColorPickerPopover.modulemap";
-				PRODUCT_MODULE_NAME = RVColorPickerPopover;
-				PRODUCT_NAME = RVColorPickerPopover;
-				SDKROOT = macosx;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
 		};
@@ -506,9 +510,9 @@
 			};
 			name = Debug;
 		};
-		EDE2AD3643F812A735A54E8035EFF5E4 /* Release */ = {
+		E57D18335F93F1911AE9B7241A807E52 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 95703CD3F580790E3F6D00063D082891 /* RVColorPickerPopover.release.xcconfig */;
+			baseConfigurationReference = 6DC38221DC8770FB886B3B00DC12E166 /* RVColorPickerPopover.debug.xcconfig */;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -536,7 +540,7 @@
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Release;
+			name = Debug;
 		};
 		F23450ED6A315666D68B0A684A048A1F /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -575,6 +579,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		251BBADC7832E7B476F1D3492646AB4B /* Build configuration list for PBXNativeTarget "RVColorPickerPopover" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E57D18335F93F1911AE9B7241A807E52 /* Debug */,
+				114B6F1E6559F92FAAC12060CD7A5AC5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -589,15 +602,6 @@
 			buildConfigurations = (
 				E160B19DFD8083DD45A9BEEFB9B9D583 /* Debug */,
 				F23450ED6A315666D68B0A684A048A1F /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		D0A7DE04CB282911F14E6A241F20A2E4 /* Build configuration list for PBXNativeTarget "RVColorPickerPopover" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				D6708EFBE00DAA2472D9BDEE0AE01269 /* Debug */,
-				EDE2AD3643F812A735A54E8035EFF5E4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

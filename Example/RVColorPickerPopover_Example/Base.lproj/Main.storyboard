@@ -710,7 +710,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="450" height="300"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <subviews>
-                            <colorWell enabled="NO" translatesAutoresizingMaskIntoConstraints="NO" id="85k-hf-K8N">
+                            <colorWell translatesAutoresizingMaskIntoConstraints="NO" id="85k-hf-K8N" customClass="RVColorWell" customModule="RVColorPickerPopover">
                                 <rect key="frame" x="300" y="172" width="74" height="28"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="24" id="1Gi-bW-f3l"/>

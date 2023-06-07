@@ -3,16 +3,16 @@
   "version": "0.1.0",
   "summary": "A short description of RVColorPickerPopover.",
   "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/Rohit Vishwakarma/RVColorPickerPopover",
+  "homepage": "https://github.com/vishalgupta7/RVColorPickerPopover",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
   },
   "authors": {
-    "Rohit Vishwakarma": "rohitvishwakarma1819@gmail.com"
+    "Vishal Gupta": "vishalgupta7@gmail.com"
   },
   "source": {
-    "git": "https://github.com/Rohit Vishwakarma/RVColorPickerPopover.git",
+    "git": "https://github.com/vishalgupta7/RVColorPickerPopover.git",
     "tag": "0.1.0"
   },
   "platforms": {

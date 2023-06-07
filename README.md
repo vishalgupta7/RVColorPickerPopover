@@ -1,6 +1,5 @@
 # RVColorPickerPopover
 
-[![CI Status](https://img.shields.io/travis/Rohit Vishwakarma/RVColorPickerPopover.svg?style=flat)](https://travis-ci.org/Rohit Vishwakarma/RVColorPickerPopover)
 [![Version](https://img.shields.io/cocoapods/v/RVColorPickerPopover.svg?style=flat)](https://cocoapods.org/pods/RVColorPickerPopover)
 [![License](https://img.shields.io/cocoapods/l/RVColorPickerPopover.svg?style=flat)](https://cocoapods.org/pods/RVColorPickerPopover)
 [![Platform](https://img.shields.io/cocoapods/p/RVColorPickerPopover.svg?style=flat)](https://cocoapods.org/pods/RVColorPickerPopover)
