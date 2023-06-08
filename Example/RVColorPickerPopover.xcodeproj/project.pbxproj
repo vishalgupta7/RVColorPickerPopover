@@ -336,7 +336,9 @@
 				CODE_SIGN_ENTITLEMENTS = RVColorPickerPopover_Example/RVColorPickerPopover_Example.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = EZUY7U2Q87;
 				INFOPLIST_FILE = RVColorPickerPopover_Example/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.14;
 				PRODUCT_BUNDLE_IDENTIFIER = org.cocoapods.demo.RVColorPickerPopover;
@@ -353,7 +355,9 @@
 				CODE_SIGN_ENTITLEMENTS = RVColorPickerPopover_Example/RVColorPickerPopover_Example.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = EZUY7U2Q87;
 				INFOPLIST_FILE = RVColorPickerPopover_Example/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.14;
 				PRODUCT_BUNDLE_IDENTIFIER = org.cocoapods.demo.RVColorPickerPopover;
