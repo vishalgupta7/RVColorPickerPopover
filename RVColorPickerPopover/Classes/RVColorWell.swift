@@ -18,7 +18,7 @@ public class RVColorWell: NSColorWell {
     func activateWithPopover() {
         let popover = RVColorPickerPopover.shared
         
-        popover.color = .red
+        popover.color = self.color
         popover.appearance = NSAppearance(named: .darkAqua)
         popover.changeColor = { [weak self] color in
             self?.color = color
