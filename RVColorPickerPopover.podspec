@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'RVColorPickerPopover'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of RVColorPickerPopover.'
+  s.summary          = 'This project will make NSColorPalette to open as a popover.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+'RVColorPickerPopover is a subclass of NSPopover that includes standard OS X color picker user interface. This helps to use NSColorPanel as a NSPopover.'
                        DESC
 
   s.homepage         = 'https://github.com/vishalgupta7/RVColorPickerPopover'
@@ -40,4 +40,5 @@ TODO: Add long description of the pod here.
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'Cocoa'
   # s.dependency 'AFNetworking', '~> 2.3'
+  s.swift_version = '5.0'
 end
