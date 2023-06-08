@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'RVColorPickerPopover'
-  s.version          = '0.1.0'
+  s.version          = '1.0.1'
   s.summary          = 'This project will make NSColorPalette to open as a popover.'
 
 # This description is used to generate tags and improve search results.
